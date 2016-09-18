@@ -10,7 +10,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: antonlicht
+  companyName: Anton Licht
   productName: Out Quest
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -94,8 +94,8 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: antonlicht.outquest
-  bundleVersion: 1.0
+  bundleIdentifier: com.antonlicht.outquest
+  bundleVersion: 0.0.1
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   xboxOneDisableKinectGpuReservation: 0
@@ -165,8 +165,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: E:/Documents/GitHub/Out Quest/android/android.keystore
+  AndroidKeyaliasName: android
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
   androidEnableBanner: 1
