@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -116,7 +115,8 @@ public static class LocalizationSheetImporter
         return request.GetResponse() as HttpWebResponse;
     }
 
-    [MenuItem("Tools/Google Sheet Service/Test Upload")]
+#if UNITY_EDITOR
+    [UnityEditor.MenuItem("Tools/Google Sheet Service/Test Upload")]
     public static void TestUpload()
     {
         Debug.Log("Test Upload");
@@ -130,7 +130,7 @@ public static class LocalizationSheetImporter
         Debug.Log("Upload success: " + result);
     }
 
-    [MenuItem("Tools/Google Sheet Service/Test Download")]
+    [UnityEditor.MenuItem("Tools/Google Sheet Service/Test Download")]
     public static void TestDownload()
     {
         Debug.Log("Test Download");
@@ -142,6 +142,7 @@ public static class LocalizationSheetImporter
 
         Debug.Log("Download done.");
     }
+#endif
 
     [Serializable]
     public class TestDataObject
