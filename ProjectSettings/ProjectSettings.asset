@@ -535,6 +535,6 @@ PlayerSettings:
   iOS::VR::enabledDevices: []
   tvOS::VR::enabledDevices: []
   cloudProjectId: b96e3b26-96e3-466b-bd15-48a96228914f
-  projectName: outquest
-  organizationId: antonlicht
+  projectName: Out Quest
+  organizationId: anton-licht
   cloudEnabled: 0
